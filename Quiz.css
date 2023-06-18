@@ -75,3 +75,8 @@ div#score {
     border-radius: 5px;
     text-align: center;
 }
+#ScoreTotal,
+#OutOff {
+    font-size: 20px;
+    font-weight: 00;
+}
