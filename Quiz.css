@@ -80,3 +80,8 @@ div#score {
     font-size: 20px;
     font-weight: 00;
 }
+div#score p {
+    line-height: 98px;
+    font-size: 26px;
+    color: green;
+}
