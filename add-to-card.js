@@ -99,7 +99,7 @@ function AddToList(value, i) {
             product: product.value,
             desc: desc.value,
             quantity: quantity.value,
-            thumbnail: imgurl == undefined ? "/img/placeholder-image.png" : imgurl,
+            thumbnail: imgurl == undefined ? "placeholder-image.png" : imgurl,
         });
         localStorage.setItem("cart", JSON.stringify(array))
         location.reload();
