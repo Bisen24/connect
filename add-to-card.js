@@ -108,7 +108,7 @@ function AddToList(value, i) {
 
 }
 
-plist.style.backgroundImage = "url('/img/empty.png')";
+plist.style.backgroundImage = "url('empty.png')";
 
 
 
