@@ -28,6 +28,10 @@ $(document).ready(function () {
     $("#searchForm").submit(function (event) {
         event.preventDefault();
         var searchString = $("#searchInput").val().trim();
+        if (searchString.length < 2)
+        {
+            alert('Enter more then two character')
+        }
         if (searchString.length >= 2) {
             $("#le-Table-1 tbody tr").each(function () {
                 var rowData = $(this).text().toLowerCase();
