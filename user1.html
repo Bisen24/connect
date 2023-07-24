@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header1.css">
+    <link rel="stylesheet" href="order1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="user1.css">
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="Topbar_Topbar__2is_u">
+            <div class="Topbar_LeftMenu__3tQ_2">
+                <div class="Topbar_LogoWrapper__2hwwN"><img src="logo.58169365.png" alt="Logo">
+                    <p class="Topbar_BrandName__2xXd6">Kafene</p>
+                </div>
+                <div class="pagination">
+                    <ul id="pagination">
+                        <li><a class="Topbar_MenuItem__3QSLp my-anchor" href="./orders1.html">Orders</a></li>
+                        <li><a class="Topbar_MenuItem__3QSLp my-anchor" href="./products1.html">Products</a></li>
+                        <li><a class="Topbar_MenuItem__3QSLp my-anchor" href="./user1.html">Users</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a class="Topbar_MenuItem__3QSLp" href="./login1.html">Logout</a>
+        </div>
+    </header>
+
+    <main class="App_MainContainer__Fvvih">
+
+
+        <div class="Homepage_PageWrapper__35FDy">
+            <h1 class="Homepage_MainHeading__3eRiM">Users</h1>
+
+
+            <form id="searchForm" class="UserList_FilterWrapper__39u8A">
+
+                <input class="UserList_SearchBox__BG9wr" id="searchInput" type="search" name="searchInput"
+                    placeholder="Search by Name">
+
+
+                <button type="reset" id="reset" class="UserList_Button__1ygGK" value="Reset" id="reset">Reset</button>
+
+
+            </form>
+
+            <div class="Homepage_OrdersWrapper__A-VhO">
+                <div style="width: 100%;">
+                    <table class="Homepage_OrderTable__1DHO-" id="le-Table-1">
+                        <tr>
+                            <th>ID</th>
+                            <th>User Avatar</th>
+                            <th>Full Name</th>
+                            <th>DoB</th>
+                            <th>Gender</th>
+                            <th>Current Location</th>
+                        </tr>
+                        <tbody id="tbody">
+                            <tr class="Homepage_TableRow__cSO9_">
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <script src="user1.js"></script>
+</body>
+
+</html>

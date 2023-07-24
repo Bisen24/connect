@@ -1,0 +1,82 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="header1.css">
+        <link rel="stylesheet" href="order1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="Topbar_Topbar__2is_u">
+                <div class="Topbar_LeftMenu__3tQ_2">
+                    <div class="Topbar_LogoWrapper__2hwwN"><img src="logo.58169365.png" alt="Logo">
+                        <p class="Topbar_BrandName__2xXd6">Kafene</p>
+                    </div>
+                    <div class="pagination">
+                        <ul id="pagination">
+                        <li><a class="Topbar_MenuItem__3QSLp my-anchor" href="./orders1.html">Orders</a></li>
+                        <li><a
+                            class="Topbar_MenuItem__3QSLp my-anchor" href="./products1.html">Products</a></li>
+                        <li><a
+                            class="Topbar_MenuItem__3QSLp my-anchor" href="./user1.html">Users</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="Topbar_MenuItem__3QSLp" href="./login1.html">Logout</a>
+            </div>
+        </header>
+
+        <main class="App_MainContainer__Fvvih">
+            <div class="Homepage_PageWrapper__35FDy">
+                <h1 class="Homepage_MainHeading__3eRiM">Products</h1>
+                <div class="Homepage_OrdersWrapper__A-VhO">
+                    <div class="Homepage_FilterWrapper__2PcDK">
+                        <h3>Filters</h3>
+                        <div class="Homepage_FilterOptions__wNuP7">
+                            <p id="productsCount">Count 29</p>
+                            <label><input type="checkbox" id="expiryFilter" checked>Expired</label>
+                            <label>
+                                <input type="checkbox" id="filterCheckbox" checked /> Low Stock
+                            </label>
+
+                        </div>
+
+
+                    </div>
+                    <div style="width: 100%;">
+                        <table class="Homepage_OrderTable__1DHO-" id="le-Table-1">
+                            <tr>
+                                <th>ID</th>
+                                <th>Product Name</th>
+                                <th>Product Brand</th>
+                                <th>Expiry Date</th>
+                                <th>Unit Price</th>
+                                <th>Stock</th>
+                            </tr>
+                            <tbody id="tbody">
+                                <tr class="Homepage_TableRow__cSO9_">
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="products1.js"></script>
+    </body>
+
+    </html>
