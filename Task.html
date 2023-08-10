@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI Design</title>
+  <link rel="stylesheet" href="Task.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--Header Code-->
+  <header>
+    <nav>
+      <div class="nav-bar">
+        <div class="left-side-hamburger">
+          <i class="fa-solid fa-bars fa-fade" id="leftHamburger"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!----->
+
+  
+  <!--Map Iframe Code-->
+  <button class="openmodal" id="rightHamburger"><i class="fa-solid fa-bars fa-fade" ></i></button>
+  <div class="modal myModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+  <div class="signin-page">
+    <h3>Google Map</h3>
+    <iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=52.70967533219885, -8.020019531250002&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br />
+  </div>
+    </div>
+  </div>
+  <!----->
+
+  
+  <!--Web page main content Code-->
+  <div class="main-wrapper" style="display: block;" id="main-wrapper-box">
+
+
+      <!--Left side Code-->
+    <div class="sidebar" id="sidebar" style="display: none;">
+     
+      <button class="openmodal signIn">Sign In</button>
+      <div class="modal myModal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+      <div class="signin-page">
+        <h3>Sign In Form</h3>
+        <form action="">
+          <input type="text" name="username" id="username" placeholder="Username">
+          <input type="password" name="password" id="password" placeholder="Password"></br>
+          <button type="submit" class="submit">SignIn</button>
+        </form>
+      </div>
+        </div>
+      </div>
+      <button class="openmodal signUp">Sign Up</button>
+      <div class="modal myModal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="signin-page">
+            <h3>Sign Up Form</h3>
+            <form action="">
+              <input type="text" name="username" id="username" placeholder="First Name">
+              <input type="text" name="username" id="username" placeholder="Last Name">
+              <input type="text" name="username" id="username" placeholder="Username">
+              <input type="text" name="username" id="password" placeholder="Password">
+              <input type="text" name="username" id="password" placeholder="Confirm Password"><br/>
+              <button type="submit" class="submit">SignUp</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----->
+  
+    
+    <main>
+      <section id="1">
+        <div class="banner-slider">
+          <div class="slider-container">
+            <div class="slider">
+              <div class="slide">
+                <div class="slider-banner">
+                  <img src="1.jpg" alt="image1" style="width:100%; border-radius: 5px;">
+                  <div class="slide-text">I AM </div>
+                </div>
+  
+              </div>
+              <div class="slide">
+                <div class="slider-banner">
+                  <img src="1.jpg" alt="image2" style="width:100% ;border-radius: 5px;">
+                  <div class="slide-text">SANDEEP</div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slider-banner">
+                  <img src="1.jpg" alt="image3" style="width:100%;border-radius: 5px;">
+                  <div class="slide-text">BISEN</div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+      <section id="2">
+        <div class="video-block">
+          <div class="left-video">
+            <div class="container">
+              <iframe class="responsive-iframe" src="https://www.youtube.com/embed/D0UnqGm_miA"
+                title="Dummy Video For Website" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+  
+          </div>
+          <div class="rigth-video">
+            <div class="container">
+              <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            </div>
+  
+          </div>
+        </div>
+      </section>
+  
+      <section id="3" class="model-box">
+        <!--- Model Box One-->
+        <button class="openmodal myBtn">Tab 1</button>
+        <div class="modal myModal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Hello.</h1>
+            <p>I am model one...</p>
+          </div>
+        </div>
+  
+        <!--- Model Box Two-->
+        <button class="openmodal myBtn">Tab 2</button>
+        <div class="modal myModal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>Hello.</h1>
+            <p>I am model two...</p>
+          </div>
+        </div>
+      </section>
+      <section id="4">
+        <div class="interactive-info-box">
+          <div class="tab-buttons">
+            <button class="tab-button">Form Tab 1</button>
+            <button class="tab-button">Text Tab 2</button>
+            <button class="tab-button active">Image Tab 3</button>
+            <button class="tab-button">Video Tab 4</button>
+          </div>
+  
+          <div class="tab-data">
+            <div class="tab-content" id="tabform">
+              <div class="tabform">
+                <div class="text">
+                  Simple Form
+                </div>
+                <form action="" class="form">
+  
+                  <input type="text" placeholder="Name" class="form-input" id="name">
+                  <label for="name" class="form-label">Name</label>
+  
+                  <input type="email" placeholder="Email" class="form-input" id="email">
+                  <label for="email" class="form-label">Email</label>
+  
+                  <input type="text" placeholder="Subject" class="form-input" id="subject">
+                  <label for="subject" class="form-label">Subject</label>
+  
+                </form>
+              </div>
+            </div>
+            <div class="tab-content" id="texttab">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis iure sapiente fugiat ipsam, quod
+                deserunt dolore ducimus commodi id quis atque quasi velit dolorem nisi repellendus praesentium aliquam ex
+                excepturi natus ullam aspernatur! Quis nam praesentium ab magnam voluptatum iure illum nostrum quod
+                recusandae distinctio? Voluptatem temporibus saepe cumque suscipit.</p>
+            </div>
+            <div class="tab-content" id="imagetab">
+              <img src="imagetab3.jpg" alt="imagetab3" width="100%" class="tabimg">
+            </div>
+            <div class="tab-content" id="videotab">
+              <iframe class="responsive-iframe-video-tab" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+      <footer>
+  
+        <div class="footer-container">
+    
+    
+          <div class="social-icons">
+            <span><i class="fa-brands fa-facebook fa-fade"></i></span>
+            <span><i class="fa-brands fa-twitter fa-fade"></i></span>
+            <span><i class="fa-brands fa-square-instagram fa-fade"></i></span>
+            <span><i class="fa-brands fa-square-dribbble fa-fade"></i></span>
+            <span><i class="fa-brands fa-youtube fa-fade"></i></span>
+          </div>
+          
+          <!--- Model Box One-->
+          <div class="modal myModal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="terms">
+                <div class="terms-header">
+                  <span><i class="fa-solid fa-file fa-beat"></i></span>
+                  <div class="terms-header-text">
+                    <p>Terms Of Service</p>
+                    <p>Last Update <span id="currentDate"></span></p>
+                  </div>
+                 
+                </div>
+                <div class="terms-content-body">
+                  <div class="terms-info">
+                    <ul>
+                      <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, veritatis.</li>
+                      <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, veritatis.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="terms-footer">
+                  <div class="decline-button">
+                    <button id="decline">Decline</button>
+                  </div>
+                  <div class="accept-button">
+                    <button id="accept">Accept</button>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!--- Model Box Two-->
+          <div class="modal myModal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="terms">
+                <div class="terms-header">
+                  <span><i class="fa-solid fa-square-check fa-beat"></i></span>
+                  <div class="terms-header-text">
+                    <p>Terms Of Policy</p>
+                    <p>Last Update <span id="currentDate"></span></p>
+                  </div>
+                 
+                </div>
+                <div class="terms-content-body">
+                  <div class="terms-info">
+                    <ul>
+                      <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, veritatis.</li>
+                      <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, veritatis.</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="terms-footer">
+                  <div class="decline-button">
+                    <button id="decline">Decline</button>
+                  </div>
+                  <div class="accept-button">
+                    <button id="accept">Accept</button>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-model-button">
+          <button class="openmodal myBtn footer-policy-btn">Policy</button>
+          <button class="openmodal myBtn footer-terms-btn">Terms</button>
+        </div>
+        </div>
+    
+    
+    
+      </footer>
+  
+    </main>
+  </div>
+  
+
+ 
+
+
+  <script src="Task.js"></script>
+</body>
+
+</html>
