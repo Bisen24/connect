@@ -71,6 +71,10 @@ let month = date.getMonth() + 1;
 let year = date.getFullYear();
 let currentDate = `${day}-${month}-${year}`;
 document.getElementById("currentDate").innerText = currentDate
+document.getElementById("currentDateOne").innerText = currentDate
+
+
+
 console.log(currentDate); // "17-6-2022"
 
 

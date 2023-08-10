@@ -525,6 +525,7 @@ button.signUp,button.signUp {
     border-radius: 5px;
     margin: 5px;
     font-family: 'Poppins', sans-serif;
+    width: 75%;
 }
 
 .signin-page button.submit {
